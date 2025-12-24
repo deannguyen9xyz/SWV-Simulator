@@ -81,7 +81,9 @@ plt.text(peak_vstep + 0.01, (baseline_at_peak + true_peak_height / 2) * 1e6,
 plt.ylabel('Current (uA)', fontsize=14)
 plt.xlabel('Potential (V)', fontsize=14)
 plt.title('Baseline Correction using Sliding Window Linearity', fontsize=18)
+plt.grid(True, alpha=0.3)
 plt.legend(fontsize=14)
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
+
 plt.show()
