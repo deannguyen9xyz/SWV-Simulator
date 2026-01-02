@@ -27,14 +27,6 @@ Run script `2_SWV_peak.py` to find peak height from generated curve.
 **2. Baseline Correction & Peak Detection:** The analysis script utilizes a sliding window (10 points) to find the region of highest linearity in the pre-peak zone. It then extrapolates a baseline equation ($y = Ax + B$) to calculate the true Faradaic peak height.
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/e93104ad-01ee-4878-a8a0-8ff4c6c1054a" />
 
----
-
-## 🎯 Purpose of This Project
-
-* Simulation of SWV: Modeling the potential staircase and square wave pulses to simulate the current response of a redox system.
-* Advanced Data Processing: implementing a Sliding Window Linear Regression to automatically identify and subtract sloped baselines.
-* GitHub portfolio demonstration.
-
 --- 
 
 ## 🧑‍💻 Author
